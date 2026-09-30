@@ -1,0 +1,492 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "report_type": "monthly",
+    "title": "높은 장기금리와 AI 실물수요가 충돌한 선별 장세",
+    "period_label": "2026-09",
+    "language": "ko",
+    "status": "final"
+  },
+  "analysis_period": {
+    "start": "2026-09-17",
+    "end": "2026-09-30",
+    "partial_month": true,
+    "source_repo": "moneyflow-daily",
+    "source_path": "data/daily/2026/09/",
+    "json_count": 27,
+    "morning_count": 14,
+    "afternoon_count": 13,
+    "missing_dates": [],
+    "missing_sessions": [
+      "2026-09-17 afternoon"
+    ]
+  },
+  "executive_summary": [
+    "고유가와 주요국 재긴축 우려에서 시작된 시장이 반도체·AI 인프라의 실물 수요 확인을 거친 뒤, 추석 연휴 중 미국 장기금리 급등을 소화하면서 성장 기대보다 자본비용과 실제 현금흐름을 더 엄격하게 따지는 차별화 국면으로 이동했다.",
+    "AI·반도체 실수요 가설은 수출·설비투자·공급계약을 통해 강화됐지만, 장기금리 상승으로 관련 자산의 밸류에이션 부담도 동시에 커졌다.",
+    "9월 28일은 해외 금리 충격이 국내 채권·환율·외국인 수급·대형주 가격에 동시에 반영된 핵심 가격 변곡점이었다.",
+    "국내 경제는 수출 제조업 강세와 생산·소비·설비투자 총량 둔화, 취약신용 부담, 서울 주택가격 상승이 동시에 나타나는 불균형 구조를 보였다."
+  ],
+  "monthly_regime": {
+    "growth": {
+      "start": "수출·AI 투자 견조",
+      "end": "수출 강세와 국내 총량 둔화 공존",
+      "status": "혼조"
+    },
+    "inflation": {
+      "start": "고유가로 상방 위험 확대",
+      "end": "유가 일부 진정에도 물가 경계 지속",
+      "status": "높은 수준 유지"
+    },
+    "rates": {
+      "start": "미 10년물 5% 부근",
+      "end": "미 장기금리 멀티디케이드 고점권",
+      "status": "강화"
+    },
+    "liquidity": {
+      "start": "금리 민감 자금 재배치",
+      "end": "외국인 대형주 매도 확대",
+      "status": "선별적 긴축"
+    },
+    "dollar_krw": {
+      "start": "원/달러 1,380원대",
+      "end": "9/30 1,352.8원",
+      "status": "높은 변동성"
+    },
+    "oil": {
+      "start": "100달러대 공급위험",
+      "end": "일부 하락·위험 프리미엄 완화",
+      "status": "영향력 약화"
+    },
+    "risk_appetite": {
+      "start": "실적주 중심 선별",
+      "end": "대형주 압박·코스닥 차별화",
+      "status": "선별성 강화"
+    },
+    "credit_housing": {
+      "start": "취약차주 부담",
+      "end": "가계·PF 부담과 서울 주택가격 상승 지속",
+      "status": "금융비용과 자산가격 괴리"
+    }
+  },
+  "market_changes": [
+    {
+      "fact": "9월 18일 코스피 6,894.23에서 9월 30일 6,838.04로 마감했지만 중간에는 7,000선을 회복했다.",
+      "interpretation": "기간 수익률보다 상승 후 재가격 과정이 중요하다."
+    },
+    {
+      "fact": "미국 장기금리는 월말 5%대 고점권을 재확인했다.",
+      "interpretation": "할인율과 자본비용이 기간 후반 핵심 거시 변수로 강화됐다."
+    },
+    {
+      "fact": "원/달러는 9월 30일 1,352.8원으로 내려왔다.",
+      "interpretation": "외국인 주식 매도와 환율을 일대일로 연결하기 어렵고 월말 네고 등 별도 수급이 작용했다."
+    }
+  ],
+  "turning_points": [
+    {
+      "date": "2026-09-17",
+      "event": "미국 기준금리 인상·고유가·미 10년물 5% 부근",
+      "change": "성장 기대보다 높은 자본비용을 감당할 실적 여부로 시장 초점 이동"
+    },
+    {
+      "date": "2026-09-21",
+      "event": "반도체 1~20일 수출 급증·코스피 종가 7,000 회복",
+      "change": "AI·반도체 가설이 기대에서 수출·설비투자 데이터로 진전"
+    },
+    {
+      "date": "2026-09-22~23",
+      "event": "대미 전략투자 1호 텍사스 가스발전 결정·원전 및 웨스팅하우스 지분 협상·한미 정상회담",
+      "change": "대외 정책이 선언에서 프로젝트 협상 단계로 진전"
+    },
+    {
+      "date": "2026-09-24~25",
+      "event": "국내 휴장 중 미국 장기금리 추가 상승",
+      "change": "성장률 개선보다 할인율 위험의 중요성 확대"
+    },
+    {
+      "date": "2026-09-28",
+      "event": "코스피 -2.70%, 외국인 약 3.24조원 순매도, 국내 금리·환율 상승",
+      "change": "해외 금리 충격이 국내 금리→환율→수급→주가로 실제 전달"
+    },
+    {
+      "date": "2026-09-29~30",
+      "event": "의약품 232조 시행·국내 실물 총량 둔화·세수 재추계 상향",
+      "change": "통상정책 예외, 재정 완충력, 실제 계약에 따른 산업별 차별화 확인"
+    }
+  ],
+  "cross_asset": {
+    "stocks": "중간 7,000선 회복 뒤 연휴 이후 대형주 중심 재가격. 코스닥·일부 장비주는 차별화.",
+    "bonds": "미국 장기금리 상승과 9/28 국내 국고채 금리 급등으로 높은 자본비용 확인.",
+    "fx": "외국인 주식 매도에도 9/30 원/달러는 1,352.8원으로 하락해 외환 수급 분리.",
+    "commodities": "초반 100달러대 유가 충격은 후반 일부 진정되며 핵심 변수의 중심이 유가에서 금리로 이동.",
+    "us_demand": "9월 소비자신뢰 81.9, 8월 JOLTS 707.9만건은 수요·노동수요 둔화의 보조 신호이나 침체 확정 신호는 아님."
+  },
+  "four_axes": {
+    "economy": "반도체·기술 수출은 강하지만 8월 전산업생산 -1.3%, 소매판매 -1.8%, 설비투자 -9.5%로 국내 총량지표는 약화. 동행지수 상승과 선행지수 하락이 공존.",
+    "policy": "에너지 가격 대응에서 대미 전략투자·원전·CPTPP·의약품 232조·재정 운용으로 정책 초점 확대. 확정 사업과 협상·잠정 분석을 구분해야 함.",
+    "industry": "AI 투자 범위가 HBM에서 전력·냉각·기판·ESS·네트워크로 확대. 공급계약·설비투자와 MOU·지분협상의 확정 수준을 구분.",
+    "social": "취약차주·리볼빙·주거비 부담이 반복 확인되는 가운데 서울 아파트는 공식 주간통계 기준 85주 연속 상승. 미국 소비심리·구인 둔화는 보조 신호."
+  },
+  "monthly_narratives": [
+    {
+      "name": "높은 자본비용",
+      "lifecycle": "강화",
+      "fact": "미 장기금리 5%대 고점권과 9/28 국내 재가격",
+      "interpretation": "성장자산의 요구수익률 상승",
+      "investment_hypothesis": "실적·현금흐름이 약한 고밸류 자산의 상대적 부담 확대",
+      "check_indicators": [
+        "미 10년·30년물",
+        "PCE",
+        "고용지표"
+      ],
+      "thesis_break_conditions": [
+        "물가 둔화와 장기금리 안정"
+      ]
+    },
+    {
+      "name": "AI 실물수요",
+      "lifecycle": "강화",
+      "fact": "반도체 수출·설비투자·AI 서버 부품 계약 확인",
+      "interpretation": "AI 수요가 실물 CAPEX와 공급계약으로 확장",
+      "investment_hypothesis": "반도체·전력·냉각·기판 중 실제 수주가 확인되는 영역의 상대적 가시성 개선",
+      "check_indicators": [
+        "HBM 가격",
+        "CAPEX",
+        "수주",
+        "마진"
+      ],
+      "thesis_break_conditions": [
+        "주문·CAPEX 둔화",
+        "마진 악화"
+      ]
+    },
+    {
+      "name": "수출-내수 불균형",
+      "lifecycle": "유지",
+      "fact": "수출 강세와 국내 생산·소비·투자 둔화 공존",
+      "interpretation": "수출 제조업 호조가 내수·가계로 같은 속도로 확산되지 않음",
+      "investment_hypothesis": "내수·레버리지 민감 업종은 거시 회복에도 차별화 가능",
+      "check_indicators": [
+        "소매판매",
+        "고용",
+        "가계신용"
+      ],
+      "thesis_break_conditions": [
+        "내수지표 동반 개선"
+      ]
+    }
+  ],
+  "transmission_paths": [
+    {
+      "path": "미국 장기금리 상승 → 글로벌 요구수익률 상승 → 국내 채권·환율 변동성 → 외국인 수급 악화 → 대형 성장주 할인율 확대",
+      "status": "9/28 가격으로 확인"
+    },
+    {
+      "path": "AI 수요 → 반도체·데이터센터 CAPEX → 전력·냉각·기판·부품 발주 → 매출·마진",
+      "status": "설비투자·계약 단계까지 일부 확인, 이익 전환은 기업별 상이"
+    },
+    {
+      "path": "정책 발표·전략투자 → 프로젝트 확정 → 발주·수주 → 생산·매출·이익",
+      "status": "텍사스 가스발전은 프로젝트 구체화, 원전·웨스팅하우스는 협상 단계"
+    }
+  ],
+  "industries": [
+    {
+      "industry": "AI 반도체·HBM",
+      "status": "강화",
+      "confirmed_evidence": [
+        "반도체 수출 호조",
+        "HBM·AI 서버 관련 설비투자"
+      ],
+      "unconfirmed": [
+        "향후 가격·마진 지속성"
+      ],
+      "risks": [
+        "장기금리",
+        "공급확대",
+        "CAPEX 조정"
+      ],
+      "break_conditions": [
+        "HBM 주문·가격·CAPEX 동반 둔화"
+      ]
+    },
+    {
+      "industry": "전력·냉각·데이터센터",
+      "status": "강화",
+      "confirmed_evidence": [
+        "데이터센터·전력망·냉각 투자 확대"
+      ],
+      "unconfirmed": [
+        "개별 기업 수익성"
+      ],
+      "risks": [
+        "자금조달비용",
+        "프로젝트 지연"
+      ],
+      "break_conditions": [
+        "발주 지연",
+        "마진 악화"
+      ]
+    },
+    {
+      "industry": "대미 에너지·원전",
+      "status": "부분 확인",
+      "confirmed_evidence": [
+        "텍사스 가스발전 1호 사업 추진"
+      ],
+      "unconfirmed": [
+        "원전 8기·웨스팅하우스 지분 최종 조건"
+      ],
+      "risks": [
+        "협상 지연",
+        "수익성",
+        "정책 변경"
+      ],
+      "break_conditions": [
+        "프로젝트 취소·조건 악화"
+      ]
+    },
+    {
+      "industry": "바이오·의약품",
+      "status": "정책 차별화",
+      "confirmed_evidence": [
+        "232조 품목별 적용 구조 시행"
+      ],
+      "unconfirmed": [
+        "기업별 실제 통관·계약 효과"
+      ],
+      "risks": [
+        "품목 분류",
+        "정책 변경"
+      ],
+      "break_conditions": [
+        "예외 범위 축소",
+        "수출 증가 부재"
+      ]
+    },
+    {
+      "industry": "희토류·공급망",
+      "status": "신규 강화",
+      "confirmed_evidence": [
+        "비중국 생산거점·영구자석 투자 계획"
+      ],
+      "unconfirmed": [
+        "고객 인증·양산·마진"
+      ],
+      "risks": [
+        "원가",
+        "수율",
+        "일정"
+      ],
+      "break_conditions": [
+        "양산 지연",
+        "고객 계약 부재"
+      ]
+    }
+  ],
+  "thesis_scoreboard": [
+    {
+      "thesis": "AI·반도체 실수요 지속",
+      "start": "강화",
+      "end": "강화",
+      "change": "강화",
+      "evidence": "수출·설비투자·부품 공급계약"
+    },
+    {
+      "thesis": "전력·냉각 병목 지속",
+      "start": "관찰",
+      "end": "강화",
+      "change": "강화",
+      "evidence": "데이터센터·전력망·냉각 투자"
+    },
+    {
+      "thesis": "높은 금리가 성장자산 밸류에이션을 제약",
+      "start": "위험",
+      "end": "확인",
+      "change": "강화",
+      "evidence": "장기금리 고점과 9/28 국내 재가격"
+    },
+    {
+      "thesis": "대미 인프라 정책이 실물투자로 연결",
+      "start": "관찰",
+      "end": "부분 확인",
+      "change": "강화",
+      "evidence": "텍사스 가스발전 1호 사업 구체화, 원전은 협상 중"
+    },
+    {
+      "thesis": "고유가가 기간 전체를 지배",
+      "start": "강화",
+      "end": "약화",
+      "change": "약화",
+      "evidence": "후반 핵심 변수가 유가에서 금리로 이동"
+    },
+    {
+      "thesis": "예금 증가=개인의 주식시장 이탈",
+      "start": "관찰",
+      "end": "약화",
+      "change": "약화",
+      "evidence": "증가분 상당 부분 기업자금"
+    },
+    {
+      "thesis": "BOJ 인상→대규모 엔캐리 청산",
+      "start": "관찰",
+      "end": "미확인",
+      "change": "유지",
+      "evidence": "명확한 청산 신호 부족"
+    },
+    {
+      "thesis": "한국 경제 전반의 침체",
+      "start": "미확인",
+      "end": "미확인",
+      "change": "유지",
+      "evidence": "수출 강세와 국내 활동 둔화 공존"
+    },
+    {
+      "thesis": "취약신용 문제가 시스템 전반으로 확산",
+      "start": "위험",
+      "end": "미확인",
+      "change": "유지",
+      "evidence": "취약부문 스트레스는 확인, 광범위 경색 미확인"
+    }
+  ],
+  "scenarios_review": {
+    "base": {
+      "initial": "고유가·긴축 부담 속 AI 투자 지속과 실적 중심 선별 장세",
+      "result": "전체 기간 흐름과 가장 유사. 산업 실수요는 유지됐지만 후반 금리 압력이 강화."
+    },
+    "positive": {
+      "initial": "유가·금리 안정 → 위험자산 상승 폭 확대",
+      "result": "9/18~23 부분적으로 현실화됐으나 지속되지 못함."
+    },
+    "negative": {
+      "initial": "금리·유가 상승과 성장자산 할인율 부담 확대",
+      "result": "장기금리 상승 경로가 후반부 실제로 현실화. AI 투자 자체의 붕괴는 미확인."
+    }
+  },
+  "signal_vs_noise": {
+    "structural_signals": [
+      "미국 장기금리 5%대와 높은 자본비용",
+      "AI 반도체 수요의 수출·설비투자 확인",
+      "AI 투자 범위가 전력·냉각·기판·에너지 인프라로 확대",
+      "수출 제조업과 내수·신용 여건의 속도 차이",
+      "서울 주택가격 상승과 높은 금융비용의 공존",
+      "대미 에너지·원전 투자와 비중국 공급망 확대",
+      "세수 재추계 상향에 따른 재정 운용 여력 확대"
+    ],
+    "unconfirmed_or_overinterpreted": [
+      "예금 증가=개인 투자자의 대규모 증시 이탈",
+      "BOJ 금리 인상=대규모 엔캐리 청산",
+      "하루의 원/달러 변화=장기 추세 전환",
+      "MOU·파트너 등록·지분협상=확정 수주",
+      "의약품 232조 일부 0%=한국산 의약품 전체 무관세",
+      "미국 소비자신뢰·JOLTS 약화=경기침체 확정"
+    ]
+  },
+  "risks": [
+    "미국 물가 상방 재확인과 장기금리 추가 상승",
+    "AI CAPEX·HBM 주문 둔화",
+    "외국인 국내주식 대규모 순매도 지속",
+    "원/달러 재상승과 국내 금융여건 악화",
+    "취약가계·자영업·PF 신용 스트레스 확대",
+    "대미 투자·원전 협상 조건 악화 또는 프로젝트 지연",
+    "통상정책 예외 범위 변경"
+  ],
+  "next_month_watchlist": [
+    {
+      "variable": "미국 장기금리",
+      "current_state": "5%대 고점권",
+      "why": "할인율과 자본비용의 핵심",
+      "maintain_condition": "고금리 지속",
+      "weaken_condition": "물가 둔화와 금리 안정",
+      "data_schedule": "미 10년·30년물, PCE, FOMC 발언"
+    },
+    {
+      "variable": "미국 소비·고용",
+      "current_state": "소비심리·구인 둔화 신호",
+      "why": "추가 긴축과 경기 경로 판단",
+      "maintain_condition": "고용·소비 둔화 지속",
+      "weaken_condition": "소비·고용 재가속",
+      "data_schedule": "비농업고용, 실업률, 소매판매"
+    },
+    {
+      "variable": "반도체",
+      "current_state": "수출·수요 강함",
+      "why": "AI 실수요 가설 핵심",
+      "maintain_condition": "HBM 가격·마진·CAPEX 유지",
+      "weaken_condition": "가격·주문·CAPEX 둔화",
+      "data_schedule": "9월 수출, 기업 가이던스"
+    },
+    {
+      "variable": "AI 인프라",
+      "current_state": "투자·계약 확대",
+      "why": "반도체 외 물리 인프라 확장 확인",
+      "maintain_condition": "발주·수주·가동률 개선",
+      "weaken_condition": "프로젝트 지연·조달비 상승",
+      "data_schedule": "전력·냉각·기판 공시"
+    },
+    {
+      "variable": "대미 전략투자",
+      "current_state": "가스발전 1호 사업 구체화",
+      "why": "정책→실물투자 전달 확인",
+      "maintain_condition": "MOU·투자집행·원전 협상 진전",
+      "weaken_condition": "협상 지연·조건 악화",
+      "data_schedule": "정부·기업 공식 발표"
+    },
+    {
+      "variable": "통상정책",
+      "current_state": "CPTPP 영향분석·의약품 232조 시행",
+      "why": "수출·산업별 원가 영향",
+      "maintain_condition": "정책 일정·예외 적용 구체화",
+      "weaken_condition": "정책 범위 변경·실제 혜택 미미",
+      "data_schedule": "정부 의견수렴·미 통관 적용"
+    },
+    {
+      "variable": "서울 주택",
+      "current_state": "공식 통계 기준 85주 상승",
+      "why": "금융비용과 자산가격 괴리 점검",
+      "maintain_condition": "상승폭·거래량 유지",
+      "weaken_condition": "광범위한 가격 둔화·전환",
+      "data_schedule": "한국부동산원 주간동향·거래량"
+    },
+    {
+      "variable": "재정",
+      "current_state": "세수 전망 +63.2조원",
+      "why": "국채 공급과 사회정책 여력",
+      "maintain_condition": "발행 축소·바이백·지출 구체화",
+      "weaken_condition": "실제 국채수급·경기 영향 미미",
+      "data_schedule": "국고채 발행계획·예산 집행"
+    }
+  ],
+  "conclusion": {
+    "fact": "AI·반도체 실수요는 강화됐지만 미국 장기금리와 외국인 수급 충격이 9월 28일 국내 가격에 크게 반영됐다.",
+    "interpretation": "이번 기간의 핵심 변화는 성장 논리의 붕괴가 아니라 성장에 적용되는 할인율의 상승이다.",
+    "investment_hypothesis": "높은 할인율 아래에서는 산업 성장성보다 실제 계약·수주·마진·현금흐름이 확인되는 영역의 상대적 가시성이 중요해질 수 있다.",
+    "check_indicators": [
+      "미 장기금리",
+      "HBM 가격·CAPEX",
+      "외국인 수급",
+      "원/달러",
+      "국내 소비·선행지수"
+    ],
+    "thesis_break_conditions": [
+      "미 장기금리 안정과 위험선호 광범위 회복",
+      "AI 실수요 급격한 둔화"
+    ]
+  },
+  "references": [
+    "https://www.yna.co.kr/view/AKR20260922068851001",
+    "https://www.yna.co.kr/view/AKR20260923071700001",
+    "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156783342&pWise=mSub&pWiseSub=C3",
+    "https://www.govinfo.gov/content/pkg/FR-2026-09-23/html/2026-19498.htm",
+    "https://www.reb.or.kr",
+    "https://www.yna.co.kr/view/AKR20260924028000003",
+    "https://www.bls.gov/news.release/archives/jolts_09292026.htm",
+    "https://mods.go.kr/board.es?bid=216&mid=a10301010000"
+  ],
+  "provenance": {
+    "source_repo": "namju-kang30/moneyflow-daily",
+    "source_files": "2026-09-17_morning.json through 2026-09-30_afternoon.json, available sessions only",
+    "verification_note": "월말 수치·정책·통상·주택·미국 고용/소비 관련 주요 항목은 일간 자료의 공식·고신뢰 출처를 재확인했으며, 미확정 사항은 협상·잠정·조건부로 구분했다."
+  }
+}
